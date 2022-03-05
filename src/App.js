@@ -36,10 +36,8 @@ function App() {
   return (
     <div>
       <Route exact path='/' component={HomePage} />
-      <Route exact path='/blog/asdqw/topics' component={TopicsList} />
-      <Route path='/blog/asdqw/topics/:topicId' component={TopicDetail} />
-      <Route exact path='/blog/topics' component={TopicsList} />
-      <Route path='/blog/topics/:topicId' component={TopicDetail} />
+      <Route exact path='/topics' component={TopicsList} />
+      <Route path='/topics/:topicId' component={TopicDetail} />
     </div>
   );
 }
